@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en_us">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Rusty Brown's Donuts</title>
@@ -17,17 +17,23 @@
         <h1>Rusty Brown's</h1>
         <img src="assets/logo.webp" alt="Rusty Brown's Logo" class="logo" />
         <h2 class="tagline">Please login.</h2>
-
+        
         <form action="/login" method="post" class="login-form">
+          <label for="email">Email</label>
           <input id="email" name="u" type="text" placeholder="username" />
+          <label for="username">Username</label>
           <input id="username" name="username" placeholder="type username again" />
+          <label for="tok">Password</label>
           <input
             id="tok"
             name="t"
             type="password"
             placeholder="Secret Cipher"
           />
+
+
         </form>
+ 
         <button class="submitBtn"><a href="/pages/about.html">Start</a></button>
 
         <p class="disclaimer">
@@ -36,7 +42,7 @@
       </main>
 
       <footer>
-        <blockquote lang="portuguese">
+        <blockquote lang="pt">
           <p>Todos os direitos reservados.</p>
         </blockquote>
       </footer>
